@@ -64,5 +64,18 @@ def findEnd(mtx, moves):
     if j == l and i == h:
         return True
     
-def dfs(mtx):
-    #puta que pariu que bagulho dificil eu vo dormir agr pfv qnd eu acordar que recursao esteja na minha cabeca amem
+
+
+
+mtx = matrix(4,5,([2,3,'O'],[1,1,'L']))
+end = [len(mtx)-1,len(mtx[0])-1]
+start = [0,0]
+
+
+def dfs(mtx,start = start, end = end, visited = None):
+    if start == end:
+        return True
+    if visited is None:
+        visited = []
+    if start in visited:
+        return 
