@@ -10,7 +10,7 @@ for i in range(n):
 
 cont = 0
 melhor = -1
-menorDelta = 1000000
+menorDelta = 1000000000000
 for mold in molduras:
     soma = 1
     cont += 1
