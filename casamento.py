@@ -16,7 +16,7 @@ if len(bstr) > len(astr):
     
     maiorA = False
     while len(bstr) > len(astr):
-        astr = '0' + astr
+        astr = '0' + astr 
     
     maior = bstr
     menor = astr
