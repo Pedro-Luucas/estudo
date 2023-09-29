@@ -10,6 +10,7 @@ def mult_poss(x):
             poss.append((i, j))
     return poss
 
+
 #funcao q adiciona 2 a todos os elementos da lista
 add = lambda lista: [(x[0] + 2, x[1]+2) for x in lista]
 
